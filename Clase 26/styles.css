@@ -1,17 +1,21 @@
-a, button {
-    display: block;
+a,
+button {
+  display: block;
 }
 
 .box {
-    width: 100px;
-    height: 100px;
-    background: red;
+  width: 100px;
+  height: 100px;
+  background: red;
 }
 
 .red {
-    background: red;
+  background: red;
 }
 
-.green{
-    background: green;
+.green {
+  width: 105px;
+  height: 105px;
+  background: green;
+  transform: 0.5;
 }
