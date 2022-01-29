@@ -1,0 +1,21 @@
+<label for="C1"><input name="C1" type="checkbox" onclick="return checkbox(this)"/>Envoltorio de Regalo</label>
+<p>&nbsp;</p>
+<script>
+  function checkbox(a) {
+
+  var Count = 0;
+
+  if (a.checked)
+  {
+  Count = Count + 1;
+
+  }
+
+  if (Count == 2)
+  {
+  alert('choose One Please');
+      return false;
+  }
+  }
+
+</script>
