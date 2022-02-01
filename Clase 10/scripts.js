@@ -1,12 +1,11 @@
-
-let numbers = [1,2,3,4,5,1];
+let numbers = [1, 2, 3, 4, 5, 1];
 
 /* 
     Arrays - Propiedad
         .length - devuelve el número de posiciones que contiene el array
 */
 
-//console.log(numbers.length);
+console.log(numbers.length);
 
 /*
     Arrays - Métodos
