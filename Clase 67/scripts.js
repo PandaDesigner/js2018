@@ -5,10 +5,10 @@ La destructuración es una expresión de JavaScript que hace posible la extracci
 */
 
 const person = {
-    name: 'Dorian',
-    age: 20,
-    email: 'dorian@gmail.com'
-}
+  name: "Dorian",
+  age: 20,
+  email: "dorian@gmail.com",
+};
 
 //FORMA TRADICIONAL
 // const name = person.name
@@ -40,9 +40,11 @@ const person = {
 // printPerson(person)
 
 const getUsers = async () => {
-    const { data: users } = await axios.get('https://jsonplaceholder.typicode.com/users')
+  const { data: users } = await axios.get(
+    "https://jsonplaceholder.typicode.com/users"
+  );
 
-    console.log(users)
-}
+  console.log(users);
+};
 
-getUsers()
+getUsers();
